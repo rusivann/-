@@ -31,10 +31,11 @@ clientnet4|-|-|-|-|10.4.1.12/30|-|-|-|10.4.1.12/30
 
 ### Настройки узлов
 spine1:
+
 ```
 key chain OSPF
   key 0
-    key-string 0 kisa
+    key-string 0 k...a
 interface Ethernet1/1
   description Net1_leaf1_10.2.1.0/31
   no switchport
@@ -78,7 +79,7 @@ spine2:
 ```
 key chain OSPF
   key 0
-    key-string 0 kisa
+    key-string 0 k...a
     
 interface Ethernet1/1
   description Net2_leaf1_10.2.2.0/31
@@ -122,7 +123,7 @@ leaf1:
 ```
 key chain OSPF
   key 0
-    key-string 0 kisa
+    key-string 0 k...a
 
 interface Ethernet1/1
   description Net1_10.2.1.0/31
@@ -161,7 +162,7 @@ leaf2:
 ```
 key chain OSPF
   key 0
-    key-string 0 kisa
+    key-string 0 k...a
 
 interface Ethernet1/1
   description Net3_10.2.1.2/31
@@ -202,7 +203,7 @@ leaf3:
 ```
 key chain OSPF
   key 0
-    key-string 0 kisa
+    key-string 0 k...a
 
 interface Ethernet1/1
   description Net5_10.2.1.4/31_spine1
